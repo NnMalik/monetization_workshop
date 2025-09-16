@@ -136,7 +136,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-3">
-            <div className="grid grid-cols-2 gap-3">
+            {/* <div className="grid grid-cols-2 gap-3">
               <Button
                 variant="outline"
                 onClick={() => fillDemoCredentials('facilitator')}
@@ -160,7 +160,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
                   <div className="text-xs text-blue-500">Player Access</div>
                 </div>
               </Button>
-            </div>
+            </div> */}
             
             <div className="text-xs text-muted-foreground space-y-1">
               <div>• <strong>Facilitator:</strong> Can start simulations & view all scores</div>
