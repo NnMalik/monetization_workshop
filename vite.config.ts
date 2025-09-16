@@ -4,6 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
+    base: "/monetization_workshop/", // GitHub Pages repo name
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
@@ -52,8 +53,8 @@
       },
     },
     build: {
-      target: 'esnext',
-      outDir: 'build',
+  target: 'esnext',
+  outDir: 'dist',
     },
     server: {
       port: 3000,

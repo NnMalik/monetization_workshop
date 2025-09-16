@@ -1,11 +1,52 @@
 
-  # Workshop Portal for Monetization
 
-  This is a code bundle for Workshop Portal for Monetization. The original project is available at https://www.figma.com/design/i4aZb3fJpkCzDiEdJdCGOC/Workshop-Portal-for-Monetization.
+# Workshop Portal for Monetization
 
-  ## Running the code
+This project is a comprehensive portal designed to facilitate workshops focused on monetization strategies. It provides interactive games, dashboards, scenario simulators, and group activities to enhance learning and engagement.
 
-  Run `npm i` to install the dependencies.
+## Features
+- Interactive games (Defense Game, Workflow Game)
+- Facilitator and participant dashboards
+- Scenario brief and simulator
+- Group activities and live log stream
+- API policy management
+- Modern UI components (Radix UI, Tailwind)
 
-  Run `npm run dev` to start the development server.
+## Folder Structure
+```
+src/
+  components/         # React components for UI and features
+  guidelines/         # Workshop guidelines and documentation
+  styles/             # Global and component styles
+  supabase/           # Supabase server functions and utilities
+  utils/              # Utility functions
+index.html            # Main HTML file
+vite.config.ts        # Vite configuration
+```
+
+## Technologies Used
+- React
+- TypeScript
+- Vite
+- Radix UI
+- Tailwind CSS
+- Supabase
+
+## Getting Started
+1. Install dependencies:
+  ```sh
+  npm install
+  ```
+2. Start the development server:
+  ```sh
+  npm run dev
+  ```
+
+## Contribution Guidelines
+1. Fork the repository and create your branch.
+2. Make your changes and submit a pull request.
+3. Ensure your code follows the existing style and passes all checks.
+
+## Deployment
+You can deploy this project using Vercel, Netlify, or any static hosting provider supporting Vite/React apps.
   
